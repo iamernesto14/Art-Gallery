@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Location</title>
+  </head>
+  <body>
+    <main>
+      <div class="map">
+        <picture class="map-picture">
+          <source
+            media="(min-width:1280px)"
+            srcset="images\desktop\image-map@2x.png"
+          />
+          <source
+            media="(min-width:1024px)"
+            srcset="images\desktop\image-map.png"
+          />
+          <source
+            media="(min-width:899px)"
+            srcset="images\tablet\image-map@2x.png"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="images\tablet\image-map.png"
+          />
+          <source
+            media="(min-width:480px)"
+            srcset="images/mobile/image-map@2x.png"
+          />
+          <img src="images/mobile/image-map.png" alt="mapa" class="map-img" />
+        </picture>
+      </div>
+
+      <div class="ourlocation container2">
+        <h1 class="title title98">Our location</h1>
+        <div class="location-flex">
+          <h2 class="title title99">99 King Street</h2>
+          <address class="address">
+            <p>Newport</p>
+            <p>RI 02840</p>
+            <p>United States of America</p>
+          </address>
+
+          <p class="location-para">
+            Our newly opened gallery is located near the Edward King House on 99
+            King Street, the Modern Art Gallery is free to all visitors and open
+            seven days a week from 8am to 9pm.
+          </p>
+        </div>
+      </div>
+      <footer class="footer-location">
+        <img src="images/logo-dark.svg" alt="logo" class="logo" />
+        <p class="paragraph mg">
+          The Modern Art Gallery is free to all visitors and open seven days a
+          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+        <div class="media">
+          <a href="#" class="media-link" aria-label="go to facebook">
+            <img src="images/icon-facebook.svg" alt="facebook icon">
+          </a>
+          <a href="#" class="media-link" aria-label="go to instagram"
+            ><img src="images/icon-instagram.svg" alt="instagram icon"></a>
+          <a href="#" class="media-link" aria-label="go to twitter"
+            ><img src="images/icon-twitter.svg" alt="twitter icon"></a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
