@@ -71,7 +71,7 @@ body {
   font-family: var(--ff-body);
   color: var(--color-gray);
   margin-bottom: 2rem;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 /*BOTON LOCATION*/
@@ -164,7 +164,7 @@ body {
   font-size: 1rem;
 }
 
-.media {
+.social {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -424,6 +424,7 @@ body {
     margin-top: -0.5rem;
     display: block;
     max-width: 100px;
+    padding: 10px 0 0 0;
   }
 
   .position {
