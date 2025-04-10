@@ -9,7 +9,7 @@
   </head>
   <body>
     <main>
-      <section class="header">
+      <header class="header">
         <div class="rect">
           <h1 class="title title-tablet visible">Modern<br />Art Gallery</h1>
         </div>
@@ -37,7 +37,7 @@
           />
           <img
             src="images/mobile/image-hero.jpg"
-            alt=""
+            alt="Modern Art Gallery entrance with visitors viewing exhibits"
             class="header-img"
           />
         </picture>
@@ -49,12 +49,15 @@
             from a spark of inspiration. Will these pieces inspire you? Visit us
             and find out.
           </p>
-          <a href="location.html" aria-label="Go to location" class="location-div"><p class="btn-paragraph">Our location</p><img src="images/icon-arrow-right.svg" alt="Flecha derecha" class="arrow right"></a>
+          <a href="location.html" aria-label="Go to location page" class="location-div">
+            <span class="btn-paragraph">Our location</span>
+            <img src="images/icon-arrow-right.svg" alt="Right arrow" class="arrow right">
+          </a>
         </div>
-    </section>
+      </header>
 
-      <div class="flex-div">
-        <div class="section1">
+      <section class="gallery-showcase flex-div">
+        <article class="section1">
           <div class="container section1-flex">
             <picture class="img-picture section1-img">
               <source
@@ -79,7 +82,7 @@
               />
               <img
                 src="images/mobile/image-grid-1.jpg"
-                alt=""
+                alt="Gallery visitor enjoying the art exhibition"
                 class="header-img"
               />
             </picture>
@@ -92,9 +95,9 @@
               </p>
             </div>
           </div>
-        </div>
+        </article>
 
-        <div class="section2">
+        <article class="section2">
           <div class="container">
             <picture class="img-picture">
               <source
@@ -119,14 +122,14 @@
               />
               <img
                 src="images/mobile/image-grid-2.jpg"
-                alt=""
+                alt="Modern art installation with benches for viewing"
                 class="header-img img"
               />
             </picture>
           </div>
-        </div>
+        </article>
 
-        <div class="section3">
+        <article class="section3">
           <div class="container">
             <picture class="img-picture">
               <source
@@ -151,39 +154,41 @@
               />
               <img
                 src="images/mobile/image-grid-3.jpg"
-                alt=""
+                alt="Gallery hallway with visitors viewing wall art"
                 class="header-img img"
               />
             </picture>
           </div>
-        </div>
+        </article>
 
-        <div class="section4">
+        <article class="section4">
           <div class="container description text-description">
             <h2 class="title title-text-three description">Come &amp; be inspired</h2>
             <p class="paragraph description">
-              We’re excited to welcome you to our gallery and see how our
+              We're excited to welcome you to our gallery and see how our
               collections influence you.
             </p>
           </div>
-        </div>
-      </div>
+        </article>
+      </section>
 
       <footer class="footer">
-        <img src="images/logo-light.svg" alt="logo" class="logo" />
+        <img src="images/logo-light.svg" alt="Modern Art Gallery logo" class="logo" />
         <p class="paragraph paragraph4">
           The Modern Art Gallery is free to all visitors and open seven days a
           week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
         </p>
-        <div class="social">
-          <a href="#" class="media-link" aria-label="go to facebook">
-            <img src="./images/icon-facebook.svg" alt="facebook icon">
+        <nav class="social">
+          <a href="https://facebook.com" class="media-link" aria-label="Visit our Facebook page">
+            <img src="./images/icon-facebook.svg" alt="Facebook icon">
           </a>
-          <a href="#" class="media-link" aria-label="go to instagram"
-            ><img src="./images/icon-instagram.svg" alt="instagram icon"></a>
-          <a href="#" class="media-link" aria-label="go to twitter"
-            ><img src="./images/icon-twitter.svg" alt="twitter icon"></a>
-        </div>
+          <a href="https://instagram.com" class="media-link" aria-label="Visit our Instagram page">
+            <img src="./images/icon-instagram.svg" alt="Instagram icon">
+          </a>
+          <a href="https://twitter.com" class="media-link" aria-label="Visit our Twitter page">
+            <img src="./images/icon-twitter.svg" alt="Twitter icon">
+          </a>
+        </nav>
       </footer>
     </main>
   </body>
