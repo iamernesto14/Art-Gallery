@@ -1,12 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./images/favicon-32x32.png" />
     <title>Modern Art Gallery</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="rect">
+          <h1 class="title title-tablet visible">Modern<br />Art Gallery</h1>
+        </div>
+
+        <picture class="header-img-picture">
+          <source
+            media="(min-width:1280px)"
+            srcset="images/desktop/image-hero@2x.jpg"
+          />
+          <source
+            media="(min-width:1024px)"
+            srcset="images/desktop/image-hero.jpg"
+          />
+          <source
+            media="(min-width:899px)"
+            srcset="images/tablet/image-hero@2x.jpg"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="images/tablet/image-hero.jpg"
+          />
+          <source
+            media="(min-width:480px)"
+            srcset="images/mobile/image-hero@2x.jpg"
+          />
+          <img
+            src="images/mobile/image-hero.jpg"
+            alt="Modern Art Gallery entrance with visitors viewing exhibits"
+            class="header-img"
+          />
+        </picture>
+
+        <div class="container text-header">
+          <h1 class="title title-tablet invisible">Modern<br />Art Gallery</h1>
+          <p class="paragraph paragraph-tablet">
+            The arts in the collection of the Modern Art Gallery all started
+            from a spark of inspiration. Will these pieces inspire you? Visit us
+            and find out.
+          </p>
+          <a href="location.html" aria-label="Go to location page" class="location-div">
+            <span class="btn-paragraph">Our location</span>
+            <img src="images/icon-arrow-right.svg" alt="Right arrow" class="arrow right">
+          </a>
+        </div>
+      </header>
+
+      <section class="gallery-showcase flex-div">
+        <article class="section1">
+          <div class="container section1-flex">
+            <picture class="img-picture section1-img">
+              <source
+                media="(min-width:1280px)"
+                srcset="images/desktop/image-grid-1@2x.jpg"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="images/desktop/image-grid-1.jpg"
+              />
+              <source
+                media="(min-width:899px)"
+                srcset="images/tablet/image-grid-1@2x.jpg"
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="images/tablet/image-grid-1.jpg"
+              />
+              <source
+                media="(min-width:480px)"
+                srcset="images/mobile/image-grid-1@2x.jpg"
+              />
+              <img
+                src="images/mobile/image-grid-1.jpg"
+                alt="Gallery visitor enjoying the art exhibition"
+                class="header-img"
+              />
+            </picture>
+            <div class="texts section1-texts">
+              <h2 class="title title-text-one">Your day at the gallery</h2>
+              <p class="paragraph paragraph2">
+                Wander through our distinct collections and find new insights
+                about our artists. Dive into the details of their creative
+                process.
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="section2">
+          <div class="container">
+            <picture class="img-picture">
+              <source
+                media="(min-width:1280px)"
+                srcset="images/desktop/image-grid-2@2x.jpg"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="images/desktop/image-grid-2.jpg"
+              />
+              <source
+                media="(min-width:899px)"
+                srcset="images/tablet/image-grid-2@2x.jpg"
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="images/tablet/image-grid-2.jpg"
+              />
+              <source
+                media="(min-width:480px)"
+                srcset="images/mobile/image-grid-2@2x.jpg"
+              />
+              <img
+                src="images/mobile/image-grid-2.jpg"
+                alt="Modern art installation with benches for viewing"
+                class="header-img img"
+              />
+            </picture>
+          </div>
+        </article>
+
+        <article class="section3">
+          <div class="container">
+            <picture class="img-picture">
+              <source
+                media="(min-width:1280px)"
+                srcset="images/desktop/image-grid-3@2x.jpg"
+              />
+              <source
+                media="(min-width:1024px)"
+                srcset="images/desktop/image-grid-3.jpg"
+              />
+              <source
+                media="(min-width:899px)"
+                srcset="images/tablet/image-grid-3@2x.jpg"
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="images/tablet/image-grid-3.jpg"
+              />
+              <source
+                media="(min-width:480px)"
+                srcset="images/mobile/image-grid-3@2x.jpg"
+              />
+              <img
+                src="images/mobile/image-grid-3.jpg"
+                alt="Gallery hallway with visitors viewing wall art"
+                class="header-img img"
+              />
+            </picture>
+          </div>
+        </article>
+
+        <article class="section4">
+          <div class="container description text-description">
+            <h2 class="title title-text-three description">Come &amp; be inspired</h2>
+            <p class="paragraph description">
+              We're excited to welcome you to our gallery and see how our
+              collections influence you.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <footer class="footer">
+        <img src="images/logo-light.svg" alt="Modern Art Gallery logo" class="logo" />
+        <p class="paragraph paragraph4">
+          The Modern Art Gallery is free to all visitors and open seven days a
+          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+        </p>
+        <nav class="social">
+          <a href="https://facebook.com" class="media-link" aria-label="Visit our Facebook page">
+            <img src="./images/icon-facebook.svg" alt="Facebook icon">
+          </a>
+          <a href="https://instagram.com" class="media-link" aria-label="Visit our Instagram page">
+            <img src="./images/icon-instagram.svg" alt="Instagram icon">
+          </a>
+          <a href="https://twitter.com" class="media-link" aria-label="Visit our Twitter page">
+            <img src="./images/icon-twitter.svg" alt="Twitter icon">
+          </a>
+        </nav>
+      </footer>
+    </main>
+  </body>
 </html>
