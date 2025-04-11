@@ -124,11 +124,6 @@ CSS Grid and Flexbox were used for complex layouts, particularly in the gallery 
 
 3. Open `index.html` in your browser to view the website locally.
 
-4. For development purposes, it's recommended to use a local server:
-   ```
-   npx serve
-   ```
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
